@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64EC54D9A3A834865FE6F213 /* Pods_SeeCats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E444C6678B9845EF8181C6C6 /* Pods_SeeCats.framework */; };
 		FA03B16B2F8CD0C900B5F0CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B16A2F8CD0C900B5F0CD /* AppDelegate.swift */; };
 		FA03B16D2F8CD0C900B5F0CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B16C2F8CD0C900B5F0CD /* SceneDelegate.swift */; };
-		FA03B16F2F8CD0C900B5F0CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B16E2F8CD0C900B5F0CD /* ViewController.swift */; };
 		FA03B1722F8CD0CA00B5F0CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA03B1702F8CD0CA00B5F0CD /* Main.storyboard */; };
 		FA03B1742F8CD0CB00B5F0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA03B1732F8CD0CB00B5F0CD /* Assets.xcassets */; };
 		FA03B1772F8CD0CB00B5F0CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA03B1752F8CD0CB00B5F0CD /* LaunchScreen.storyboard */; };
+		FA03B1882F8CDA6300B5F0CD /* KRProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B1872F8CDA6300B5F0CD /* KRProgressHUD */; };
+		FA03B18B2F8CDAA000B5F0CD /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B18A2F8CDAA000B5F0CD /* AlamofireImage */; };
+		FA03B18E2F8CDABE00B5F0CD /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B18D2F8CDABE00B5F0CD /* ObjectMapper */; };
+		FA03B1912F8CDAD700B5F0CD /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B1902F8CDAD700B5F0CD /* Reachability */; };
+		FA03B1962F8CDBA900B5F0CD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B1952F8CDBA900B5F0CD /* RealmSwift */; };
+		FA03B1992F8CDD0400B5F0CD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B1982F8CDD0400B5F0CD /* FirebaseAuth */; };
+		FA03B19D2F8CDD0400B5F0CD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B19C2F8CDD0400B5F0CD /* FirebaseDatabaseSwift */; };
+		FA03B1A02F8CDDFE00B5F0CD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA03B19F2F8CDDFE00B5F0CD /* Alamofire */; };
+		FA03B1A62F8CE62F00B5F0CD /* ResourcesForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1A52F8CE62E00B5F0CD /* ResourcesForApp.swift */; };
+		FA03B1A82F8CF85900B5F0CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA03B1A72F8CF85900B5F0CD /* GoogleService-Info.plist */; };
+		FA03B1AB2F8D0B3D00B5F0CD /* SCImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1A92F8D0B3C00B5F0CD /* SCImage.swift */; };
+		FA03B1AC2F8D0B3D00B5F0CD /* SCBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1AA2F8D0B3D00B5F0CD /* SCBase.swift */; };
+		FA03B1AE2F8D0B4700B5F0CD /* CommonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1AD2F8D0B4700B5F0CD /* CommonTypes.swift */; };
+		FA03B1B02F8D0CBD00B5F0CD /* SCBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1AF2F8D0CBD00B5F0CD /* SCBreed.swift */; };
+		FA03B1B42F8D0E5200B5F0CD /* CatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1B32F8D0E5200B5F0CD /* CatImageCell.swift */; };
+		FA03B1B62F8D0F9500B5F0CD /* CatImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03B1B52F8D0F9500B5F0CD /* CatImagesVC.swift */; };
+		FA244E712F8E90D400A3AA3D /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = FA244E702F8E90D400A3AA3D /* SkeletonView */; };
+		FA2ED9092F8F247D0087A0C0 /* ImageAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2ED9082F8F247D0087A0C0 /* ImageAnalysis.swift */; };
+		FA2ED90B2F8F255E0087A0C0 /* SCImageAnalysisElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2ED90A2F8F255E0087A0C0 /* SCImageAnalysisElement.swift */; };
+		FAB9D1572F8D5A9500D93237 /* Toaster in Frameworks */ = {isa = PBXBuildFile; productRef = FAB9D1562F8D5A9500D93237 /* Toaster */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6771EEED3F6FADB592B2AF /* Pods-SeeCats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeCats.debug.xcconfig"; path = "Target Support Files/Pods-SeeCats/Pods-SeeCats.debug.xcconfig"; sourceTree = "<group>"; };
+		E444C6678B9845EF8181C6C6 /* Pods_SeeCats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeCats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037DFF4C2533A008FF64234 /* Pods-SeeCats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeCats.release.xcconfig"; path = "Target Support Files/Pods-SeeCats/Pods-SeeCats.release.xcconfig"; sourceTree = "<group>"; };
 		FA03B1672F8CD0C900B5F0CD /* SeeCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA03B16A2F8CD0C900B5F0CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA03B16C2F8CD0C900B5F0CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA03B16E2F8CD0C900B5F0CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA03B1712F8CD0CA00B5F0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA03B1732F8CD0CB00B5F0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA03B1762F8CD0CB00B5F0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA03B1782F8CD0CB00B5F0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA03B1A52F8CE62E00B5F0CD /* ResourcesForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesForApp.swift; sourceTree = "<group>"; };
+		FA03B1A72F8CF85900B5F0CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA03B1A92F8D0B3C00B5F0CD /* SCImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImage.swift; sourceTree = "<group>"; };
+		FA03B1AA2F8D0B3D00B5F0CD /* SCBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBase.swift; sourceTree = "<group>"; };
+		FA03B1AD2F8D0B4700B5F0CD /* CommonTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTypes.swift; sourceTree = "<group>"; };
+		FA03B1AF2F8D0CBD00B5F0CD /* SCBreed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBreed.swift; sourceTree = "<group>"; };
+		FA03B1B32F8D0E5200B5F0CD /* CatImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageCell.swift; sourceTree = "<group>"; };
+		FA03B1B52F8D0F9500B5F0CD /* CatImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImagesVC.swift; sourceTree = "<group>"; };
+		FA2ED9082F8F247D0087A0C0 /* ImageAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalysis.swift; sourceTree = "<group>"; };
+		FA2ED90A2F8F255E0087A0C0 /* SCImageAnalysisElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCImageAnalysisElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA244E712F8E90D400A3AA3D /* SkeletonView in Frameworks */,
+				FA03B19D2F8CDD0400B5F0CD /* FirebaseDatabaseSwift in Frameworks */,
+				FA03B18E2F8CDABE00B5F0CD /* ObjectMapper in Frameworks */,
+				FA03B1962F8CDBA900B5F0CD /* RealmSwift in Frameworks */,
+				FA03B1882F8CDA6300B5F0CD /* KRProgressHUD in Frameworks */,
+				FA03B1A02F8CDDFE00B5F0CD /* Alamofire in Frameworks */,
+				FAB9D1572F8D5A9500D93237 /* Toaster in Frameworks */,
+				FA03B1912F8CDAD700B5F0CD /* Reachability in Frameworks */,
+				64EC54D9A3A834865FE6F213 /* Pods_SeeCats.framework in Frameworks */,
+				FA03B18B2F8CDAA000B5F0CD /* AlamofireImage in Frameworks */,
+				FA03B1992F8CDD0400B5F0CD /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0A98F411BAF42DD2F6E3A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E444C6678B9845EF8181C6C6 /* Pods_SeeCats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4FAFAA6A37F7803230CE19D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6771EEED3F6FADB592B2AF /* Pods-SeeCats.debug.xcconfig */,
+				F037DFF4C2533A008FF64234 /* Pods-SeeCats.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA03B15E2F8CD0C900B5F0CD = {
 			isa = PBXGroup;
 			children = (
 				FA03B1692F8CD0C900B5F0CD /* SeeCats */,
 				FA03B1682F8CD0C900B5F0CD /* Products */,
+				F4FAFAA6A37F7803230CE19D /* Pods */,
+				E0A98F411BAF42DD2F6E3A32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +118,96 @@
 		FA03B1692F8CD0C900B5F0CD /* SeeCats */ = {
 			isa = PBXGroup;
 			children = (
-				FA03B16A2F8CD0C900B5F0CD /* AppDelegate.swift */,
-				FA03B16C2F8CD0C900B5F0CD /* SceneDelegate.swift */,
-				FA03B16E2F8CD0C900B5F0CD /* ViewController.swift */,
-				FA03B1702F8CD0CA00B5F0CD /* Main.storyboard */,
-				FA03B1732F8CD0CB00B5F0CD /* Assets.xcassets */,
-				FA03B1752F8CD0CB00B5F0CD /* LaunchScreen.storyboard */,
 				FA03B1782F8CD0CB00B5F0CD /* Info.plist */,
+				FA03B1A72F8CF85900B5F0CD /* GoogleService-Info.plist */,
+				FA03B1842F8CD76200B5F0CD /* Application */,
+				FA03B1822F8CD6EC00B5F0CD /* Resources */,
+				FA03B1812F8CD6D400B5F0CD /* Services */,
+				FA03B1802F8CD6D000B5F0CD /* Models */,
+				FA03B17F2F8CD6CD00B5F0CD /* Utils */,
+				FA03B17E2F8CD6CA00B5F0CD /* Views */,
 			);
 			path = SeeCats;
+			sourceTree = "<group>";
+		};
+		FA03B17E2F8CD6CA00B5F0CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA03B1852F8CD7A000B5F0CD /* Storyboards */,
+				FA03B1B32F8D0E5200B5F0CD /* CatImageCell.swift */,
+				FA03B1B52F8D0F9500B5F0CD /* CatImagesVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA03B17F2F8CD6CD00B5F0CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA2ED90C2F8F2B600087A0C0 /* Extensions */,
+				FA03B1AD2F8D0B4700B5F0CD /* CommonTypes.swift */,
+				FA03B1A52F8CE62E00B5F0CD /* ResourcesForApp.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA03B1802F8CD6D000B5F0CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA03B1AA2F8D0B3D00B5F0CD /* SCBase.swift */,
+				FA03B1A92F8D0B3C00B5F0CD /* SCImage.swift */,
+				FA2ED9082F8F247D0087A0C0 /* ImageAnalysis.swift */,
+				FA2ED90A2F8F255E0087A0C0 /* SCImageAnalysisElement.swift */,
+				FA03B1AF2F8D0CBD00B5F0CD /* SCBreed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA03B1812F8CD6D400B5F0CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA03B1822F8CD6EC00B5F0CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA03B1832F8CD70C00B5F0CD /* Fonts */,
+				FA03B1732F8CD0CB00B5F0CD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA03B1832F8CD70C00B5F0CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA03B1842F8CD76200B5F0CD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA03B16A2F8CD0C900B5F0CD /* AppDelegate.swift */,
+				FA03B16C2F8CD0C900B5F0CD /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA03B1852F8CD7A000B5F0CD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA03B1752F8CD0CB00B5F0CD /* LaunchScreen.storyboard */,
+				FA03B1702F8CD0CA00B5F0CD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA2ED90C2F8F2B600087A0C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA03B17B2F8CD0CB00B5F0CD /* Build configuration list for PBXNativeTarget "SeeCats" */;
 			buildPhases = (
+				1C1146350417C2F1175621DE /* [CP] Check Pods Manifest.lock */,
 				FA03B1632F8CD0C900B5F0CD /* Sources */,
 				FA03B1642F8CD0C900B5F0CD /* Frameworks */,
 				FA03B1652F8CD0C900B5F0CD /* Resources */,
@@ -83,6 +227,18 @@
 			dependencies = (
 			);
 			name = SeeCats;
+			packageProductDependencies = (
+				FA03B1872F8CDA6300B5F0CD /* KRProgressHUD */,
+				FA03B18A2F8CDAA000B5F0CD /* AlamofireImage */,
+				FA03B18D2F8CDABE00B5F0CD /* ObjectMapper */,
+				FA03B1902F8CDAD700B5F0CD /* Reachability */,
+				FA03B1952F8CDBA900B5F0CD /* RealmSwift */,
+				FA03B1982F8CDD0400B5F0CD /* FirebaseAuth */,
+				FA03B19C2F8CDD0400B5F0CD /* FirebaseDatabaseSwift */,
+				FA03B19F2F8CDDFE00B5F0CD /* Alamofire */,
+				FAB9D1562F8D5A9500D93237 /* Toaster */,
+				FA244E702F8E90D400A3AA3D /* SkeletonView */,
+			);
 			productName = SeeCats;
 			productReference = FA03B1672F8CD0C900B5F0CD /* SeeCats.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +267,17 @@
 				Base,
 			);
 			mainGroup = FA03B15E2F8CD0C900B5F0CD;
+			packageReferences = (
+				FA03B1862F8CDA6300B5F0CD /* XCRemoteSwiftPackageReference "KRProgressHUD" */,
+				FA03B1892F8CDAA000B5F0CD /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				FA03B18C2F8CDABE00B5F0CD /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				FA03B18F2F8CDAD700B5F0CD /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+				FA03B1922F8CDBA900B5F0CD /* XCRemoteSwiftPackageReference "realm-swift" */,
+				FA03B1972F8CDD0400B5F0CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FA03B19E2F8CDDFE00B5F0CD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FAB9D1552F8D5A9400D93237 /* XCRemoteSwiftPackageReference "Toaster" */,
+				FA244E6F2F8E90D400A3AA3D /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = FA03B1682F8CD0C900B5F0CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA03B1772F8CD0CB00B5F0CD /* LaunchScreen.storyboard in Resources */,
+				FA03B1A82F8CF85900B5F0CD /* GoogleService-Info.plist in Resources */,
 				FA03B1742F8CD0CB00B5F0CD /* Assets.xcassets in Resources */,
 				FA03B1722F8CD0CA00B5F0CD /* Main.storyboard in Resources */,
 			);
@@ -133,14 +301,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C1146350417C2F1175621DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeCats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA03B1632F8CD0C900B5F0CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA03B16F2F8CD0C900B5F0CD /* ViewController.swift in Sources */,
+				FA03B1B02F8D0CBD00B5F0CD /* SCBreed.swift in Sources */,
+				FA2ED9092F8F247D0087A0C0 /* ImageAnalysis.swift in Sources */,
+				FA03B1B42F8D0E5200B5F0CD /* CatImageCell.swift in Sources */,
+				FA03B1AC2F8D0B3D00B5F0CD /* SCBase.swift in Sources */,
+				FA03B1B62F8D0F9500B5F0CD /* CatImagesVC.swift in Sources */,
+				FA2ED90B2F8F255E0087A0C0 /* SCImageAnalysisElement.swift in Sources */,
+				FA03B1AE2F8D0B4700B5F0CD /* CommonTypes.swift in Sources */,
 				FA03B16B2F8CD0C900B5F0CD /* AppDelegate.swift in Sources */,
+				FA03B1AB2F8D0B3D00B5F0CD /* SCImage.swift in Sources */,
 				FA03B16D2F8CD0C900B5F0CD /* SceneDelegate.swift in Sources */,
+				FA03B1A62F8CE62F00B5F0CD /* ResourcesForApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +483,7 @@
 		};
 		FA03B17C2F8CD0CB00B5F0CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6771EEED3F6FADB592B2AF /* Pods-SeeCats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,8 +492,9 @@
 				DEVELOPMENT_TEAM = R3XPH5TX6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeCats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeeCats;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -310,6 +513,7 @@
 		};
 		FA03B17D2F8CD0CB00B5F0CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F037DFF4C2533A008FF64234 /* Pods-SeeCats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,8 +522,9 @@
 				DEVELOPMENT_TEAM = R3XPH5TX6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeCats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeeCats;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -358,6 +563,134 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA03B1862F8CDA6300B5F0CD /* XCRemoteSwiftPackageReference "KRProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krimpedance/KRProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA03B1892F8CDAA000B5F0CD /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.3.0;
+			};
+		};
+		FA03B18C2F8CDABE00B5F0CD /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA03B18F2F8CDAD700B5F0CD /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA03B1922F8CDBA900B5F0CD /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.34.1;
+			};
+		};
+		FA03B1972F8CDD0400B5F0CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		FA03B19E2F8CDDFE00B5F0CD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FA244E6F2F8E90D400A3AA3D /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FAB9D1552F8D5A9400D93237 /* XCRemoteSwiftPackageReference "Toaster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bluesky335/Toaster.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA03B1872F8CDA6300B5F0CD /* KRProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B1862F8CDA6300B5F0CD /* XCRemoteSwiftPackageReference "KRProgressHUD" */;
+			productName = KRProgressHUD;
+		};
+		FA03B18A2F8CDAA000B5F0CD /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B1892F8CDAA000B5F0CD /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		FA03B18D2F8CDABE00B5F0CD /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B18C2F8CDABE00B5F0CD /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		FA03B1902F8CDAD700B5F0CD /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B18F2F8CDAD700B5F0CD /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
+		};
+		FA03B1952F8CDBA900B5F0CD /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B1922F8CDBA900B5F0CD /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		FA03B1982F8CDD0400B5F0CD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B1972F8CDD0400B5F0CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA03B19C2F8CDD0400B5F0CD /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B1972F8CDD0400B5F0CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		FA03B19F2F8CDDFE00B5F0CD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA03B19E2F8CDDFE00B5F0CD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FA244E702F8E90D400A3AA3D /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA244E6F2F8E90D400A3AA3D /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		FAB9D1562F8D5A9500D93237 /* Toaster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAB9D1552F8D5A9400D93237 /* XCRemoteSwiftPackageReference "Toaster" */;
+			productName = Toaster;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA03B15F2F8CD0C900B5F0CD /* Project object */;
 }
